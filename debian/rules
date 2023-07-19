@@ -17,3 +17,6 @@ endif
 
 override_dh_compress:
 	dh_compress -X.js -X.html -X.txt
+
+override_dh_auto_test:
+	echo "Do nothing..."
